@@ -1,0 +1,95 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper div {
+  width: 1200px;
+}
+.create-new-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+.create-new-btn {
+  height: 40px;
+  border: none;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: #fff;
+  margin-left: auto;
+  cursor: pointer;
+}
+.table-container {
+  border: 1px solid #eee;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.table-header {
+  display: flex;
+  align-items: center;
+  background: whitesmoke;
+  border-bottom: 1px solid #eee;
+}
+
+.table-header p {
+  flex: 4;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.table-header p:nth-child(2) {
+  flex: 6;
+
+  margin-right: 30px;
+}
+.table-header p:first-child {
+  flex: 1;
+  text-align: center;
+  margin-right: 30px;
+}
+.table-header p:last-child {
+  flex: 3;
+}
+
+.table-body div {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background: #fff;
+}
+
+.table-body div:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+.table-body p {
+  flex: 4;
+}
+.table-body p:first-child {
+  flex: 1;
+  text-align: center;
+  margin-right: 30px;
+}
+.table-body p:nth-child(2) {
+  flex: 6;
+
+  margin-right: 30px;
+}
+.table-body p:last-child {
+  flex: 3;
+}
+
+.table-body span {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}
