@@ -29,7 +29,7 @@ const SingleDocument = () => {
         <div>
           <h1 style={{ textAlign: "center" }}>{data?.document_name}</h1>
           <label>Name</label>
-          <p></p>
+          <p>{data?.fields[0]?.field_name}</p>
           <label>Gender</label>
           <select>
             <option>Male</option>
